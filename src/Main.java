@@ -1,5 +1,11 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello, World!");
+		Playable mp = new MusicPlayer();
+		mp.play();
+		mp.stop();
+
+		Playable vp = new VideoPlayer();
+		vp.play();
+		vp.stop();
 	}
 }
