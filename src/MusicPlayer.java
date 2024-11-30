@@ -1,4 +1,4 @@
-public class MusicPlayer implements Playable {
+public class MusicPlayer implements AdvancedPlayable {
 	@Override
 	public void play() {
 		System.out.println("Playing music");
@@ -7,5 +7,10 @@ public class MusicPlayer implements Playable {
 	@Override
 	public void stop() {
 		System.out.println("Stopping music");
+	}
+
+	@Override
+	public void pause() {
+		System.out.println("Pausing music");
 	}
 }

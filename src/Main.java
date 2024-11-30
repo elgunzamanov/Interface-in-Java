@@ -1,11 +1,13 @@
 public class Main {
 	public static void main(String[] args) {
-		Playable mp = new MusicPlayer();
+		AdvancedPlayable mp = new MusicPlayer();
 		mp.play();
+		mp.pause();
 		mp.stop();
 
-		Playable vp = new VideoPlayer();
+		AdvancedPlayable vp = new VideoPlayer();
 		vp.play();
+		vp.pause();
 		vp.stop();
 	}
 }

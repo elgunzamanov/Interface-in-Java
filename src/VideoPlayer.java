@@ -1,4 +1,4 @@
-public class VideoPlayer implements Playable {
+public class VideoPlayer implements AdvancedPlayable {
 	@Override
 	public void play() {
 		System.out.println("Playing video");
@@ -7,5 +7,10 @@ public class VideoPlayer implements Playable {
 	@Override
 	public void stop() {
 		System.out.println("Stopping video");
+	}
+
+	@Override
+	public void pause() {
+		System.out.println("Pausing video");
 	}
 }
