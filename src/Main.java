@@ -1,5 +1,9 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println(Playable.MAX_VOLUME);
+		MusicPlayer mp = new MusicPlayer();
+		mp.defaultPlayMessage();
+
+		VideoPlayer vp = new VideoPlayer();
+		vp.defaultPlayMessage();
 	}
 }

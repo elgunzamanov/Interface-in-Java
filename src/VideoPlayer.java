@@ -13,4 +13,9 @@ public class VideoPlayer implements AdvancedPlayable {
 	public void pause() {
 		System.out.println("Pausing video");
 	}
+
+	@Override
+	public void defaultPlayMessage() {
+		System.out.println("VideoPlayer provides its own implementation of the default method.");
+	}
 }
