@@ -1,9 +1,12 @@
 public class Main {
 	public static void main(String[] args) {
-		MusicPlayer mp = new MusicPlayer();
-		mp.defaultPlayMessage();
+		Document document = new Document();
+		document.display();
 
-		VideoPlayer vp = new VideoPlayer();
-		vp.defaultPlayMessage();
+		Readable readable = new Document();
+		readable.display();
+
+		Printable printable = new Document();
+		printable.display();
 	}
 }
